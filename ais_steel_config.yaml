@@ -1,0 +1,23 @@
+project: Steel Price Forecasting System
+author: Sagnik Patra
+algorithm: Artificial Immune System
+model: AIS Optimized RandomForestRegressor
+all_features:
+- ITEM_ENCODED
+- Start_Year
+- Month_Num
+- Actual_Year
+selected_features: &id001
+- ITEM_ENCODED
+- Start_Year
+- Month_Num
+- Actual_Year
+target: Price
+metrics:
+  MAE: 270.79643735224494
+  MSE: 151263.40661445534
+  RMSE: 388.9259654670222
+  R2_SCORE: 0.995053392022778
+  ACCURACY_PERCENTAGE: 99.5053392022778
+  AIS_BEST_SCORE: 0.9558883010440984
+  AIS_SELECTED_FEATURES: *id001

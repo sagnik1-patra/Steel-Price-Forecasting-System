@@ -1,0 +1,20 @@
+project: Steel Price Forecasting System
+author: Sagnik Patra
+model: RandomForestRegressor
+features:
+- ITEM_ENCODED
+- Start_Year
+- Month_Num
+- Actual_Year
+target: Price
+metrics:
+  MAE: 270.79643735224494
+  MSE: 151263.40661445534
+  RMSE: 388.9259654670222
+  R2_SCORE: 0.995053392022778
+output_files:
+  pkl_model: C:\Users\NXTWAVE\Downloads\Steel Price Forecasting System\steel_price_model.pkl
+  encoder: C:\Users\NXTWAVE\Downloads\Steel Price Forecasting System\steel_item_encoder.pkl
+  json_metrics: C:\Users\NXTWAVE\Downloads\Steel Price Forecasting System\steel_model_metrics.json
+  yaml_config: steel_model_config.yaml
+  h5_data: steel_model_data.h5
