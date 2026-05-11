@@ -1,0 +1,16 @@
+project: Steel Price Forecasting System
+author: Sagnik Patra
+algorithm: Hybrid AIS + PSO
+model: PIS Optimized RandomForestRegressor
+selected_features: &id001
+- ITEM_ENCODED
+- Start_Year
+- Month_Num
+- Actual_Year
+metrics:
+  MAE: 270.79643735224494
+  MSE: 151263.40661445534
+  RMSE: 388.9259654670222
+  R2_SCORE: 0.995053392022778
+  ACCURACY_PERCENTAGE: 99.5053392022778
+  SELECTED_FEATURES: *id001

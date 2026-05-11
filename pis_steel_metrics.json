@@ -1,0 +1,13 @@
+{
+    "MAE": 270.79643735224494,
+    "MSE": 151263.40661445534,
+    "RMSE": 388.9259654670222,
+    "R2_SCORE": 0.995053392022778,
+    "ACCURACY_PERCENTAGE": 99.5053392022778,
+    "SELECTED_FEATURES": [
+        "ITEM_ENCODED",
+        "Start_Year",
+        "Month_Num",
+        "Actual_Year"
+    ]
+}
